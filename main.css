@@ -1,0 +1,127 @@
+   @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=DM+Sans&family=Lexend&display=swap');
+body {
+      background-color: black;
+      color: white;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+html {
+  height: 100%;
+  width: 100%;
+}
+
+ h1, h2, h3, h4, h5, h6, p, a, span {
+     font-family: 'Overlock', sans-serif;
+     align-self: center;
+}
+
+.main {
+  background-color: transparent;
+  border: 1px solid #fffafa;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  bottom: -4%;
+}
+
+.leftnavbar {
+  margin-right: auto;
+  margin-left: 10px;
+  bottom: -4%;
+}
+
+.centernavbar {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navlink {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  transition: 0.3s;  
+  box-shadow: 1px -1px 11px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px -1px 11px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px -1px 11px 0px rgba(0,0,0,0.75);
+  margin-right: 10px;
+}
+
+.navlink:hover {
+  background-color: black;
+  color: white;
+  scale: 1.05;
+  border-radius: 3px;
+}
+
+
+.searchtitle {
+  margin-top: 50px;
+}
+#search {
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 15px;
+
+  /* Add these properties to center horizontally */
+  display: block;
+  margin: 10px auto;
+}
+
+/* Style the container */
+#gamescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px;
+  background-color: transparent;
+}
+
+.game {
+  display: block;
+  width: calc(16.66% - 10px);
+  height: auto;
+  width: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 1px solid white;
+  transition: transform 0.3s ease; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* add margin-top to create space between the image and text */
+  margin-top: 10px;
+}
+
+.game:hover {
+  transform: scale(1.1);
+  border-radius: 2px;
+}
+    .gameimg {
+      height: 100px;
+      width: 100px;
+      margin-bottom: 10px;
+    }
